@@ -6,6 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Carousel from "react-bootstrap/Carousel";
 import AboutUs from "./components/AboutUs/AboutUs";
 import Academics from "./components/Academics";
+import Admissions from "./components/Admissions";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Hero />
         <AboutUs/>
         <Academics/>
+        <Admissions/>
       </div>
       <ButtonGradient />
     </>
