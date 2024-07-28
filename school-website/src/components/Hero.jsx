@@ -10,7 +10,7 @@ import Notification from "./Notification";
 import Generating from "./Generating";
 import CompanyLogos from "./CompanyLogos";
 import CarouselSlider from "./CarouselSlider";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import Carousel from "react-bootstrap/Carousel";
 
 const Hero = () => {
@@ -47,9 +47,6 @@ const Hero = () => {
             Welcome to Springdale Public School, where we nurture young minds
             for a brighter future.
           </p>
-          <Button href="/pricing" white>
-            Get Started
-          </Button>
         </div>
         <div
           className="relative max-w-[23rem] mx-auto
@@ -77,71 +74,27 @@ const Hero = () => {
                   alt="school"
                 />
 
-                <Generating
-                  className="absolute left-4 right-4 bottom-5
-                md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2"
-                />
-
-                <ScrollParallax isAbsolutelyPositioned>
-                  <ul
-                    className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1
-                    py-1 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex"
-                  >
-                    {heroIcons.map((icon, index) => (
-                      <li className="p-5" key={index}>
-                        <img src={icon} width={24} height={25} alt={icon} />
-                      </li>
-                    ))}
-                  </ul>
-                </ScrollParallax>
-
-                <ScrollParallax isAbsolutelyPositioned>
-                  <Notification
-                    className="hidden absolute 
-                        -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex"
-                    title="Code generation"
-                  />
-                </ScrollParallax>
+                
               </div>
             </div>
             <Gradient />
           </div>
-          
-          <div
-            className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 
-          md:-top-[46%] md:w-[138%] lg:-top-[104%]"
-          ></div>
+
+          <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
+            <img
+              src={heroBackground}
+              className="w-full"
+              width={1440}
+              height={1800}
+              alt="hero"
+            />
+          </div>
+
           <BackgroundCircles />
-        </div>  
+        </div>
       </div>
       <BottomLine />
-      <div className="w-[80%]" style={{ display: 'block', padding: 30, alignContent: "center" }}>
-      <Carousel>
-          <Carousel.Item interval={1500}>
-            <img
-              className="d-block center xl:-mt-2"
-              src={swimming}
-              alt="Image One"
-            />
-            <Carousel.Caption>
-              <h3>Label for first slide</h3>
-              <p>Sample Text for Image One</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-
-          <Carousel.Item interval={1500}>
-            <img
-              className="d-block center xl:-mt-2"
-              src="../assets/hero/swimming.jpg"
-              alt="Image One"
-            />
-            <Carousel.Caption>
-              <h3>Label for second slide</h3>
-              <p>Sample Text for Image Two</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
-        </div>
+      <CarouselSlider />
     </Section>
   );
 };

@@ -43,6 +43,9 @@ import {
     books,
     education,  
     calculator, 
+    icon1,
+    icon2,
+    icon3,
   } from "../assets";
   
   export const navigation = [
@@ -53,28 +56,28 @@ import {
     },
     {
       id: "1",
+      title: "Gallery",
+      url: "#gallery",
+    },
+    {
+      id: "2",
       title: "Academics",
       url: "#academics",
     },
     {
-      id: "2",
+      id: "3",
       title: "Admissions",
       url: "#admissions",
     },
     {
-      id: "3",
+      id: "4",
       title: "Faculty",
       url: "#faculty",
     },
     {
-      id: "4",
+      id: "5",
       title: "Students",
       url: "#students",
-    },
-    {
-      id: "5",
-      title: "Gallery",
-      url: "#gallery",
     },
     {
       id: "6",
@@ -89,9 +92,7 @@ import {
   
   export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
   
-  export const admissionServices = [
-    "Download the Admission Form"
-  ];
+  
   
   export const brainwaveServicesIcons = [
     recording03,
@@ -104,36 +105,45 @@ import {
   export const roadmap = [
     {
       id: "0",
-      title: "Voice recognition",
-      text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-      date: "May 2023",
-      status: "done",
+      title: "Extracurricular Activities",
+      text1:"Music",
+      text2:"Dance",
+      text3:"Drama",
+      text4:"Art",
+      text5:"Sports", 
       imageUrl: roadmap1,
       colorful: true,
     },
     {
       id: "1",
-      title: "Gamification",
-      text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-      date: "May 2023",
-      status: "progress",
+      title: "Clubs and Societies",
+      text1:"Literary Society",
+      text2:"Environmental Club",
+      text3:"Astronomy Club",
+      text4:"Coding Club",
+      text5:"Robotics Club",
       imageUrl: roadmap2,
     },
     {
       id: "2",
-      title: "Chatbot customization",
-      text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-      date: "May 2023",
-      status: "done",
+      title: "Achievements",
+      text1:"John Smith - National Level Math Olympiad Winner",
+      icon1:icon1,
+      icon2:icon2,
+      icon3:icon3,
+      text2:"Sarah Lee - Gold Medalist in Swimming Championship",
+      text3:"Winners of Inter-School Robotics Competition",
       imageUrl: roadmap3,
+      
     },
     {
       id: "3",
-      title: "Integration with APIs",
-      text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-      date: "May 2023",
-      status: "progress",
+      title: "Student Council",
+      text1:"○ President: Amy Parker, Grade 12",
+      text2:"○ Vice President: Rajiv Mehta, Grade 11",
+      text3:"○ Secretary: Lisa Wong, Grade 10",
       imageUrl: roadmap4,
+      colorful:true,
     },
   ];
   

@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap");
+@import url("../node_modules/react-image-gallery/styles/css/image-gallery.css");
 
 @tailwind base;
 @tailwind components;
@@ -11,6 +12,21 @@
   --font-code: "Source Code Pro", monospace;
   --font-grotesk: "Space Grotesk", sans-serif;
   color-scheme: dark;
+}
+
+#videobg {
+  -o-filter: blur(7px);
+  filter: blur(7px) brightness(50%);
+  object-fit: cover;
+}
+
+#admissiontable {
+  text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px;
+}
+
+iframe { 
+  width: 100%;
+  aspect-ratio: 16 / 9.5;
 }
 
 * {

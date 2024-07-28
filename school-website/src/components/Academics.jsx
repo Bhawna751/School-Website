@@ -7,8 +7,9 @@ import logo from "../assets/logo.png"
 import {LeftCurve, RightCurve} from './design/Collaboration'
 
 const Academics = () => {
+    
   return (
-    <Section crosses>
+    <Section crosses id="academics">
         <div className='container lg:flex'>
             <div className='max-w-[25rem]'>
                 <h2 className='h2 mb-4 md:mb-8'>Curriculum</h2>
@@ -25,7 +26,7 @@ const Academics = () => {
                         </li>
                     ))}
                 </ul>
-                <Button>Join Us Now</Button>
+                
             </div>
             <div className='lg:ml-auto xl:w-[38rem] mt-4'>
                 <p className='body-2 mb-8 text-n-4 md:mb-16 lg:mb-32 lg:w-[22rem] lg:mx-auto'>

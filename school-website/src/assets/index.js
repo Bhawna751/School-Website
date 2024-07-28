@@ -20,6 +20,12 @@ import chromecast from "./chrome-cast.svg";
 import sliders04 from "./sliders-04.svg";
 import loading from "./loading.png";
 import background from "./background.jpg";
+import icon1 from "./medal-line.svg";
+import icon2 from "./swimmer.svg";
+import icon3 from "./robot-3-fill.svg";
+
+import admissionForm from "./admission-form.pdf";
+
 
 import books from "./Logos/books.png";
 import bus from "./Logos/bus.png";
@@ -58,10 +64,10 @@ import stars from "./pricing/stars.svg";
 import coins from "./roadmap/coins.png";
 import done from "./roadmap/done.svg";
 import hero from "./roadmap/hero.png";
-import roadmap1 from "./roadmap/image-1.png";
+import roadmap1 from "./roadmap/roadmap1.gif";
 import roadmap2 from "./roadmap/image-2.png";
 import roadmap3 from "./roadmap/image-3.png";
-import roadmap4 from "./roadmap/image-4.png";
+import roadmap4 from "./roadmap/roadmap4.png";
 import undone from "./roadmap/undone.svg";
 
 import notification1 from "./notification/image-1.png";
@@ -110,6 +116,10 @@ export {
   sliders04,
   loading,
   background,
+  icon1,
+  icon2,
+  icon3,
+  admissionForm,
   books,
   bus,
   education,
