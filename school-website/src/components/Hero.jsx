@@ -1,17 +1,10 @@
 import Section from "./Section";
-import { curve, swimming } from "../assets";
+import { curve } from "../assets";
 import { school, heroBackground } from "../assets";
-import Button from "./Button";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
-import { heroIcons } from "../constants";
-import { ScrollParallax } from "react-just-parallax";
 import { useRef } from "react";
-import Notification from "./Notification";
-import Generating from "./Generating";
-import CompanyLogos from "./CompanyLogos";
 import CarouselSlider from "./CarouselSlider";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Carousel from "react-bootstrap/Carousel";
 
 const Hero = () => {
   const parallaxRef = useRef(null);
@@ -73,8 +66,6 @@ const Hero = () => {
                   height={490}
                   alt="school"
                 />
-
-                
               </div>
             </div>
             <Gradient />
