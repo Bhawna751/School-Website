@@ -7,6 +7,7 @@ React.js
 Tailwind CSS
 
 🔋 Features:
+
 👉 Beautiful Sections: Includes hero, About Us, Gallery, Academics, Admissions, Faculty, Students,Contact Us,footer, and header.
 
 👉 Parallax Animations: Engaging effects triggered by mouse movement and scrolling
@@ -28,17 +29,20 @@ Git
 Node.js
 npm (Node Package Manager)
 Cloning the Repository
-
+```
 git clone https://github.com/Bhawna751/School-Website.git
 cd school-website
+```
 
 Installation
 
 Install the project dependencies using npm:
-
+```
 npm install
+```
 Running the Project
-
+```
 npm run dev
+```
 Open http://localhost:5173 in your browser to view the project.
  
