@@ -1,11 +1,12 @@
 # School Website
 
-⚙️ Tech Stack
+⚙️ Tech Stack:
+
 Vite
 React.js
 Tailwind CSS
 
-🔋 Features
+🔋 Features:
 👉 Beautiful Sections: Includes hero, About Us, Gallery, Academics, Admissions, Faculty, Students,Contact Us,footer, and header.
 
 👉 Parallax Animations: Engaging effects triggered by mouse movement and scrolling
@@ -16,7 +17,7 @@ Tailwind CSS
 
 👉 Responsive: Ensures seamless functionality and aesthetics across all devices and many more, including code architecture and reusability
 
-🤸 Quick Start
+🤸 Quick Start:
 Follow these steps to set up the project locally on your machine.
 
 Prerequisites
