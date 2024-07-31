@@ -1,12 +1,12 @@
-# School Website
+# School Website 
 
-⚙️ Tech Stack:
+⚙️ **Tech Stack:**
 
-Vite
-React.js
-Tailwind CSS
+- Vite
+- React.js
+- Tailwind CSS
 
-🔋 Features:
+🔋 **Features:**
 
 👉 Beautiful Sections: Includes hero, About Us, Gallery, Academics, Admissions, Faculty, Students,Contact Us,footer, and header.
 
@@ -18,29 +18,29 @@ Tailwind CSS
 
 👉 Responsive: Ensures seamless functionality and aesthetics across all devices and many more, including code architecture and reusability
 
-🤸 Quick Start:
+🤸 **Quick Start:**
 Follow these steps to set up the project locally on your machine.
 
-Prerequisites
+**Prerequisites**
 
 Make sure you have the following installed on your machine:
 
 Git
 Node.js
 npm (Node Package Manager)
-Cloning the Repository
+
+**Cloning the Repository:**
 ```
 git clone https://github.com/Bhawna751/School-Website.git
 cd school-website
 ```
-
-Installation
+**Installation:**
 
 Install the project dependencies using npm:
 ```
 npm install
 ```
-Running the Project
+**Running the Project:**
 ```
 npm run dev
 ```
