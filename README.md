@@ -6,6 +6,8 @@
 - React.js
 - Tailwind CSS
 
+-----
+
 🔋 **Features:**
 
 👉 Beautiful Sections: Includes hero, About Us, Gallery, Academics, Admissions, Faculty, Students,Contact Us,footer, and header.
@@ -17,6 +19,8 @@
 👉 Cool Gradients: Enhances visuals with stylish gradients using Tailwind CSS for cards, buttons, etc.
 
 👉 Responsive: Ensures seamless functionality and aesthetics across all devices and many more, including code architecture and reusability
+
+-----
 
 🤸 **Quick Start:**
 Follow these steps to set up the project locally on your machine.
